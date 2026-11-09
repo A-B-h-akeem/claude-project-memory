@@ -1,0 +1,16 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "abdul-plugins",
+  "description": "Claude Code plugins by abdul",
+  "owner": {
+    "name": "abdul"
+  },
+  "plugins": [
+    {
+      "name": "project-memory",
+      "description": "Gives every project folder its own memory in .project-memory/: created on the first session in a folder, loaded automatically on every session after, and shared by anyone who opens the folder.",
+      "source": "./plugins/project-memory",
+      "category": "productivity"
+    }
+  ]
+}

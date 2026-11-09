@@ -1,0 +1,9 @@
+{
+  "name": "project-memory",
+  "version": "3.1.0",
+  "description": "Gives every project folder its own memory in .project-memory/: created on the first session in a folder, loaded automatically on every session after, and shared by anyone who opens the folder.",
+  "author": {
+    "name": "abdul"
+  },
+  "keywords": ["memory", "context", "notes", "project"]
+}
