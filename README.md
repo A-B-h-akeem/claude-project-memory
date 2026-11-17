@@ -1,5 +1,7 @@
 # project-memory
 
+> This repo is the `abdul-plugins` Claude Code marketplace with two plugins: **project-memory** (this page) and **[research-log](plugins/research-log/README.md)**, which keeps a documentary of how a project was built for a later research paper. Install either with `/plugin marketplace add A-B-h-akeem/claude-project-memory`, then `/plugin install <name>@abdul-plugins`.
+
 A Claude Code plugin that keeps a **portable handoff memory** in every project folder. It's a backup alongside Claude's built-in memory, which stays primary. Hand the folder to a new chat, another account or another person, and they pick up where you left off: what the project is, what's been decided and why, what's done and what's next. Nobody has to re-explain anything, and it costs a few hundred tokens instead of a re-read of the codebase.
 
 ## What gets created in each project

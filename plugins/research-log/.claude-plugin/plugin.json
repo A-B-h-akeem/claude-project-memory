@@ -1,0 +1,8 @@
+{
+  "name": "research-log",
+  "version": "0.1.0",
+  "description": "Keeps a documentary of how a project was built (stuck points, ideas and who proposed them, decisions, dead ends) for a later research paper. Mirrors session transcripts into the project and never adds a turn.",
+  "author": { "name": "abdul" },
+  "license": "MIT",
+  "keywords": ["research", "documentation", "journal", "paper", "log"]
+}

@@ -1,0 +1,10 @@
+{
+  "description": "research-log: mirrors session transcripts into the project and adds a one-line logging rule. Never blocks, never adds a turn.",
+  "hooks": {
+    "SessionStart":     [{"hooks": [{"type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/hook.sh\" start",   "timeout": 15}]}],
+    "UserPromptSubmit": [{"hooks": [{"type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/hook.sh\" prompt",  "timeout": 10}]}],
+    "Stop":             [{"hooks": [{"type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/hook.sh\" stop",    "timeout": 10}]}],
+    "PreCompact":       [{"hooks": [{"type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/hook.sh\" compact", "timeout": 10}]}],
+    "SessionEnd":       [{"hooks": [{"type": "command", "command": "bash \"${CLAUDE_PLUGIN_ROOT}/hooks/hook.sh\" end",     "timeout": 15}]}]
+  }
+}

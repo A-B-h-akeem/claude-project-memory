@@ -11,6 +11,12 @@
       "description": "Gives every project folder its own memory in .project-memory/: created on the first session in a folder, loaded automatically on every session after, and shared by anyone who opens the folder.",
       "source": "./plugins/project-memory",
       "category": "productivity"
+    },
+    {
+      "name": "research-log",
+      "description": "Keeps a documentary of how a project was built (stuck points, ideas and who proposed them, decisions, dead ends) for a later research paper. Mirrors session transcripts into the project, extracts a journal, index and stats with no model calls, and never adds a turn.",
+      "source": "./plugins/research-log",
+      "category": "productivity"
     }
   ]
 }
