@@ -1,0 +1,5 @@
+# research-log: the raw transcript mirror and hook state stay on this machine (they hold everything
+# typed and every tool output). journal/, documentary/, TIMELINE.md and DOCUMENTARY.md are meant to be committed.
+raw/
+state/
+export/
